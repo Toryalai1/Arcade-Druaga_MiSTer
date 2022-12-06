@@ -267,8 +267,8 @@ hps_io #(.CONF_STR(CONF_STR)) hps_io
   .joystick_1(joystick_1),
 
   .buttons(buttons),
-  .status(status)
-  .ps2_key(ps2_key)
+  .status(status),
+  .ps2_key(ps2_key),
 );
 
 // Retleave Title No.
